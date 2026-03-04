@@ -1,0 +1,687 @@
+{
+  "name": "Aurora",
+  "settings": {
+    "colors": {
+      "primary": "#1C1917",
+      "secondary": "#57534E",
+      "accent": "#B45309",
+      "background": "#FAFAF9",
+      "text": "#44403C",
+      "heading": "#1C1917",
+      "border": "#E7E5E4",
+      "shadow": "rgba(28,25,23,0.06)",
+      "link": "#B45309",
+      "linkHover": "#92400E",
+      "buttonBg": "#1C1917",
+      "buttonText": "#FAFAF9",
+      "buttonBorder": "#1C1917",
+      "buttonHoverBg": "#292524",
+      "buttonHoverText": "#FAFAF9",
+      "buttonHoverBorder": "#292524",
+      "secondaryButtonBg": "transparent",
+      "secondaryButtonText": "#1C1917",
+      "secondaryButtonBorder": "#1C1917",
+      "secondaryButtonHoverBg": "#1C1917",
+      "secondaryButtonHoverText": "#FAFAF9",
+      "secondaryButtonHoverBorder": "#1C1917",
+      "inputBg": "#FAFAF9",
+      "inputText": "#1C1917",
+      "inputBorder": "#D6D3D1",
+      "inputHoverBg": "#F5F5F4",
+      "variantBg": "#FAFAF9",
+      "variantText": "#57534E",
+      "variantBorder": "#E7E5E4",
+      "variantSelectedBg": "#1C1917",
+      "variantSelectedText": "#FAFAF9",
+      "variantSelectedBorder": "#1C1917"
+    },
+    "typography": {
+      "headingFont": "DM Serif Display",
+      "bodyFont": "DM Sans",
+      "subheadingFont": "DM Sans",
+      "accentFont": "Cormorant Garamond",
+      "p": {
+        "size": "15px",
+        "lineHeight": "1.7",
+        "letterSpacing": "normal",
+        "case": "default"
+      },
+      "h1": {
+        "font": "heading",
+        "size": "36px",
+        "lineHeight": "1.15",
+        "letterSpacing": "-0.03em",
+        "case": "default"
+      },
+      "h2": {
+        "font": "heading",
+        "size": "28px",
+        "lineHeight": "1.2",
+        "letterSpacing": "-0.02em",
+        "case": "default"
+      },
+      "h3": {
+        "font": "heading",
+        "size": "22px",
+        "lineHeight": "1.3",
+        "letterSpacing": "-0.01em",
+        "case": "default"
+      },
+      "h4": {
+        "font": "heading",
+        "size": "18px",
+        "lineHeight": "1.35",
+        "letterSpacing": "normal",
+        "case": "default"
+      },
+      "h5": {
+        "font": "heading",
+        "size": "16px",
+        "lineHeight": "1.4",
+        "letterSpacing": "normal",
+        "case": "default"
+      },
+      "h6": {
+        "font": "heading",
+        "size": "14px",
+        "lineHeight": "1.4",
+        "letterSpacing": "0.02em",
+        "case": "uppercase"
+      }
+    },
+    "layout": {
+      "containerWidth": "1440px",
+      "sectionSpacing": "40px",
+      "sectionSpacingMobile": "28px",
+      "gridGap": "28px"
+    },
+    "animations": {
+      "pageTransition": "slide",
+      "cardHoverEffect": "lift"
+    },
+    "buttons": {
+      "primaryRadius": "8px",
+      "primaryBorderThickness": "0px",
+      "primaryFont": "body",
+      "primaryCase": "uppercase",
+      "primaryLetterSpacing": "0.05em",
+      "secondaryRadius": "8px",
+      "secondaryBorderThickness": "1px",
+      "secondaryFont": "body",
+      "secondaryCase": "uppercase",
+      "secondaryLetterSpacing": "0.05em",
+      "pillsRadius": "100px"
+    },
+    "badges": {
+      "position": "top_left",
+      "radius": "4px",
+      "saleBg": "#B91C1C",
+      "saleText": "#ffffff",
+      "soldOutBg": "#A8A29E",
+      "soldOutText": "#ffffff",
+      "font": "body",
+      "case": "uppercase"
+    },
+    "cart": {
+      "type": "drawer",
+      "titleCase": "default",
+      "priceFont": "accent",
+      "autoOpenDrawer": true,
+      "emptyCartLink": "/collections/all",
+      "enableNotes": false,
+      "openNoteByDefault": false,
+      "enableDiscounts": true,
+      "mediaBorder": "none",
+      "mediaRadius": "8px"
+    },
+    "drawers": {
+      "colorScheme": "light",
+      "borders": "none",
+      "shadow": "lg"
+    },
+    "icons": {
+      "stroke": "default"
+    },
+    "inputs": {
+      "borderThickness": "1px",
+      "radius": "8px",
+      "textPreset": "p"
+    },
+    "modals": {
+      "colorScheme": "light",
+      "radius": "16px",
+      "borders": "none",
+      "shadow": "xl"
+    },
+    "productCards": {
+      "quickAdd": true,
+      "mobileQuickAdd": true,
+      "quickAddScheme": "white",
+      "showSecondImage": true,
+      "showCarousel": false
+    }
+  },
+  "sections": {
+    "announcement_1": {
+      "type": "announcement",
+      "settings": {
+        "style": "minimal"
+      },
+      "blocks": [
+        {
+          "type": "announcement",
+          "settings": {
+            "text": "Free shipping on orders over ₦50,000",
+            "background_color": "#1C1917",
+            "text_color": "#FAFAF9"
+          }
+        }
+      ]
+    },
+    "header_1": {
+      "type": "header",
+      "settings": {
+        "layout": "centered",
+        "menuHandle": "main-menu",
+        "showSearch": true,
+        "showAccount": true,
+        "showCart": true
+      }
+    },
+    "hero_1": {
+      "type": "hero",
+      "settings": {
+        "height": "full",
+        "alignment": "left",
+        "vertical_alignment": "bottom",
+        "overlay_color": "#1C1917",
+        "overlay_opacity": 40
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "settings": {
+            "text": "Elevate Your Everyday",
+            "size": "h1",
+            "color": "#FAFAF9"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "text": "Thoughtfully curated pieces designed for modern living. Discover collections that blend form and function.",
+            "color": "#E7E5E4"
+          }
+        },
+        {
+          "type": "button",
+          "settings": {
+            "text": "Shop the Collection",
+            "link": "/collections/all",
+            "bg_color": "#FAFAF9",
+            "text_color": "#1C1917"
+          }
+        }
+      ]
+    },
+    "featured_collection_1": {
+      "type": "featured_collection",
+      "settings": {
+        "layout": "grid",
+        "columns": 4,
+        "limit": 8,
+        "show_description": false,
+        "show_view_all": true,
+        "padding_y": "large",
+        "gap": "medium",
+        "aspect_ratio": "portrait",
+        "border_radius": "lg",
+        "hover_overlay": true
+      },
+      "blocks": []
+    },
+    "image_with_text_1": {
+      "type": "image_with_text",
+      "settings": {
+        "image_position": "left",
+        "image_width": "1/2",
+        "layout": "overlap",
+        "background_color": "#FAFAF9",
+        "text_color": "#1C1917",
+        "accent_line": true,
+        "accent_color": "#B45309",
+        "padding_y": "large"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "settings": {
+            "text": "Crafted with Purpose",
+            "size": "h2"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "text": "Every product in our collection is thoughtfully designed and sustainably sourced. We believe in quality over quantity — pieces that last and stories worth telling."
+          }
+        },
+        {
+          "type": "button",
+          "settings": {
+            "text": "Our Story",
+            "link": "/pages/about"
+          }
+        }
+      ]
+    },
+    "newsletter_1": {
+      "type": "newsletter",
+      "settings": {
+        "background_color": "#1C1917",
+        "text_color": "#FAFAF9",
+        "accent_color": "#B45309",
+        "padding_y": "large"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "settings": {
+            "text": "Stay in the Loop",
+            "size": "h2",
+            "color": "#FAFAF9"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "text": "Be the first to know about new arrivals, exclusive offers, and curated collections.",
+            "color": "#D6D3D1"
+          }
+        },
+        {
+          "type": "email_signup",
+          "settings": {
+            "placeholder": "Enter your email",
+            "button_text": "Subscribe"
+          }
+        }
+      ]
+    },
+    "footer_1": {
+      "type": "footer",
+      "settings": {
+        "layout": "centered",
+        "description": "Thoughtfully curated collections for modern living.",
+        "showSocials": true,
+        "backgroundColor": "#F5F5F4",
+        "textColor": "#57534E",
+        "alignment": "center"
+      },
+      "blocks": [
+        {
+          "type": "link_list",
+          "settings": {
+            "title": "Shop",
+            "menu": "main-menu",
+            "column_index": 1
+          }
+        },
+        {
+          "type": "link_list",
+          "settings": {
+            "title": "Support",
+            "menu": "footer",
+            "column_index": 2
+          }
+        },
+        {
+          "type": "social_link",
+          "settings": {
+            "platform": "instagram",
+            "url": "https://instagram.com",
+            "column_index": 3
+          }
+        }
+      ]
+    },
+    "copyright_1": {
+      "type": "copyright",
+      "settings": {
+        "copyrightText": "",
+        "backgroundColor": "#F5F5F4",
+        "textColor": "#A8A29E",
+        "showBorder": true
+      }
+    },
+    "main-product": {
+      "type": "product-detail",
+      "settings": {
+        "layout": "sticky-sidebar"
+      },
+      "blocks": [
+        {
+          "type": "product_images",
+          "settings": {
+            "layout": "stacked",
+            "enable_zoom": true,
+            "show_thumbnails": true
+          }
+        },
+        {
+          "type": "product_title",
+          "settings": {
+            "show_vendor": true
+          }
+        },
+        {
+          "type": "product_price",
+          "settings": {
+            "show_compare_at": true
+          }
+        },
+        {
+          "type": "product_variants",
+          "settings": {
+            "style": "buttons"
+          }
+        },
+        {
+          "type": "add_to_cart",
+          "settings": {
+            "show_quantity": true,
+            "button_text": "Add to Cart"
+          }
+        },
+        {
+          "type": "product_description",
+          "settings": {
+            "collapsible": true
+          }
+        }
+      ]
+    },
+    "main-collection": {
+      "type": "product-list",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "collection_heading",
+          "settings": {}
+        },
+        {
+          "type": "collection_description",
+          "settings": {}
+        },
+        {
+          "type": "product_grid",
+          "settings": {
+            "columns": "4"
+          }
+        }
+      ]
+    },
+    "main-cart": {
+      "type": "cart-page",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "cart_items",
+          "settings": {}
+        },
+        {
+          "type": "cart_summary",
+          "settings": {}
+        }
+      ]
+    },
+    "main-login": {
+      "type": "auth-section",
+      "settings": { "mode": "login" },
+      "blocks": [
+        {
+          "type": "auth_header",
+          "allow_delete": false,
+          "settings": {
+            "title": "Welcome back",
+            "subtitle": "Sign in to your account",
+            "show_logo": true
+          }
+        },
+        {
+          "type": "login_form",
+          "allow_delete": false,
+          "settings": {
+            "show_forgot_password": true,
+            "show_register_link": true,
+            "button_text": "Sign In"
+          }
+        }
+      ]
+    },
+    "main-register": {
+      "type": "auth-section",
+      "settings": { "mode": "register" },
+      "blocks": [
+        {
+          "type": "auth_header",
+          "allow_delete": false,
+          "settings": {
+            "title": "Create account",
+            "subtitle": "Join us today",
+            "show_logo": true
+          }
+        },
+        {
+          "type": "register_form",
+          "allow_delete": false,
+          "settings": {
+            "show_terms": true,
+            "show_login_link": true,
+            "button_text": "Create Account"
+          }
+        }
+      ]
+    },
+    "main-forgot-password": {
+      "type": "auth-section",
+      "settings": { "mode": "forgot-password" },
+      "blocks": [
+        {
+          "type": "auth_header",
+          "allow_delete": false,
+          "settings": {
+            "title": "Reset Password",
+            "subtitle": "We'll send you a code to reset your password",
+            "show_logo": true
+          }
+        },
+        {
+          "type": "forgot_password_form",
+          "allow_delete": false,
+          "settings": {
+            "button_text": "Send Code"
+          }
+        }
+      ]
+    },
+    "main-checkout": {
+      "type": "checkout-page",
+      "blocks": [
+        {
+          "type": "checkout_page_title",
+          "settings": {
+            "show_title": true,
+            "title": "Checkout",
+            "alignment": "left",
+            "color": "#1C1917"
+          }
+        },
+        {
+          "type": "checkout_form",
+          "settings": {}
+        }
+      ],
+      "settings": {}
+    },
+    "main-thank-you": {
+      "type": "thank-you-page",
+      "blocks": [
+        {
+          "type": "thank_you_icon",
+          "settings": {
+            "mode": "icon",
+            "icon": "check",
+            "size": 80,
+            "color": "#16a34a",
+            "background_color": "#f0fdf4"
+          }
+        },
+        {
+          "type": "thank_you_header",
+          "settings": {
+            "show_title": true,
+            "title": "Order Placed!",
+            "subtitle": "Thank you for your purchase. Your order has been successfully placed."
+          }
+        },
+        {
+          "type": "order_details",
+          "settings": {}
+        },
+        {
+          "type": "gift_card_codes",
+          "settings": {}
+        },
+        {
+          "type": "payment_instructions",
+          "settings": {}
+        },
+        {
+          "type": "continue_shopping",
+          "settings": {
+            "button_text": "Continue Shopping"
+          }
+        }
+      ],
+      "settings": {}
+    },
+    "main-account": {
+      "type": "account-section",
+      "blocks": [
+        {
+          "type": "account_nav",
+          "allow_delete": false,
+          "settings": {
+            "use_soft_active": true,
+            "active_color": "#F5F5F4",
+            "active_text_color": "#1C1917",
+            "active_shadow": "none",
+            "icon_color": "#A8A29E",
+            "active_icon_color": "#1C1917"
+          }
+        },
+        {
+          "type": "report",
+          "settings": {
+            "show_total_orders": true,
+            "show_total_spent": true,
+            "show_loyalty": true,
+            "card_bg": "#F5F5F4",
+            "icon_color": "#B45309",
+            "icon_bg": "#FEF3C7",
+            "label_color": "#78716C",
+            "value_color": "#1C1917"
+          }
+        },
+        {
+          "type": "orders",
+          "allow_delete": false,
+          "settings": {
+            "dashboard_title": "Recent Orders",
+            "dashboard_items": 3,
+            "items_per_page": 10,
+            "search_enabled": true,
+            "table_bg": "#FAFAF9",
+            "header_bg": "#F0EFEE",
+            "header_text_color": "#A8A29E",
+            "row_text_color": "#1C1917",
+            "row_border_color": "#F5F5F4"
+          }
+        },
+        {
+          "type": "addresses",
+          "allow_delete": false,
+          "settings": {
+            "title": "Saved Addresses",
+            "card_bg": "#F5F5F4",
+            "title_color": "#1C1917",
+            "text_color": "#78716C",
+            "icon_color": "#D6D3D1"
+          }
+        }
+      ],
+      "settings": {
+        "show_header": true,
+        "title": "My Account",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "content_width": "1200",
+        "background_color": "#FAFAF9",
+        "shadow_style": "none",
+        "border_radius": 12,
+        "show_recent_orders": true,
+        "show_recent_addresses": true,
+        "modal_bg": "rgba(28,25,23,0.5)",
+        "modal_title": "Add New Address",
+        "modal_cancel_label": "Cancel",
+        "modal_submit_label": "Save Address",
+        "modal_content_bg": "#FFFFFF",
+        "modal_radius": 20,
+        "modal_primary_button_bg": "#1C1917",
+        "modal_primary_button_text": "#FAFAF9",
+        "modal_title_color": "#1C1917",
+        "modal_input_bg": "#F5F5F4",
+        "modal_input_border": "#E7E5E4"
+      }
+    },
+    "main-order": {
+      "type": "order-details-section",
+      "blocks": [
+        { "type": "order_header", "settings": {} },
+        { "type": "order_items", "settings": {} },
+        { "type": "order_summary", "settings": {} },
+        { "type": "order_address", "settings": {} }
+      ],
+      "settings": {}
+    }
+  },
+  "layout": {
+    "header": [
+      "announcement_1",
+      "header_1"
+    ],
+    "content": [
+      "hero_1",
+      "featured_collection_1",
+      "image_with_text_1",
+      "newsletter_1"
+    ],
+    "footer": [
+      "footer_1",
+      "copyright_1"
+    ]
+  },
+  "templates": {
+    "product_detail": { "order": ["main-product"] },
+    "collection": { "order": ["main-collection"] },
+    "cart": { "order": ["main-cart"] },
+    "login": { "order": ["main-login"] },
+    "register": { "order": ["main-register"] },
+    "forgot_password": { "order": ["main-forgot-password"] },
+    "checkout": { "order": ["main-checkout"] },
+    "thank_you": { "order": ["main-thank-you"] },
+    "account": { "order": ["main-account"] },
+    "order": { "order": ["main-order"] }
+  }
+}
